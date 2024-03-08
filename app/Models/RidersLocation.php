@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class RidersLocation extends Model
 {
     use HasFactory;
+
+    protected $fillable = ['rider_id', 'service_name', 'lat', 'long'];
 }
